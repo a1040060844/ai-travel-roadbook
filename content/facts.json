@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "needsRecheck": true,
+  "records": [
+    {
+      "id": "starter-content",
+      "claim": "这是模板起步内容，不可作为实际旅行信息。",
+      "status": "needs_recheck",
+      "source": "content/source-guide.md"
+    }
+  ]
+}

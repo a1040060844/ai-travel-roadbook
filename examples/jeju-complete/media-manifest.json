@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-09-16T04:34:13.896Z",
+  "assets": [
+    {
+      "path": "/examples/jeju-complete/atmosphere/opening-coast.png",
+      "role": "hero",
+      "alt": "济州海岸开场图",
+      "tool": "existing local V3 atmosphere asset",
+      "format": "png",
+      "needsOptimization": true
+    },
+    {
+      "path": "/examples/jeju-complete/atmosphere/day-1-aerial.png",
+      "role": "day-1",
+      "alt": "抵达济州 氛围图",
+      "tool": "existing local V3 atmosphere asset",
+      "format": "png",
+      "needsOptimization": true
+    },
+    {
+      "path": "/examples/jeju-complete/atmosphere/day-2-west-sunset.png",
+      "role": "day-2",
+      "alt": "西线海景 氛围图",
+      "tool": "existing local V3 atmosphere asset",
+      "format": "png",
+      "needsOptimization": true
+    },
+    {
+      "path": "/examples/jeju-complete/atmosphere/day-3-udo.png",
+      "role": "day-3",
+      "alt": "东线晚起线报团 氛围图",
+      "tool": "existing local V3 atmosphere asset",
+      "format": "png",
+      "needsOptimization": true
+    },
+    {
+      "path": "/examples/jeju-complete/atmosphere/day-4-forest.png",
+      "role": "day-4",
+      "alt": "森林牧场 氛围图",
+      "tool": "existing local V3 atmosphere asset",
+      "format": "png",
+      "needsOptimization": true
+    },
+    {
+      "path": "/examples/jeju-complete/atmosphere/day-5-city.png",
+      "role": "day-5",
+      "alt": "购物返程 氛围图",
+      "tool": "existing local V3 atmosphere asset",
+      "format": "png",
+      "needsOptimization": true
+    }
+  ]
+}

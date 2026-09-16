@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-09-16T00:00:00.000Z",
+  "assets": [
+    {
+      "path": "/assets/template/starter-hero.png",
+      "role": "hero",
+      "alt": "中立旅行路书起步主图",
+      "tool": "OpenAI imagegen",
+      "prompt": "Destination-neutral cinematic coastline with negative space; no text, no watermark.",
+      "format": "png",
+      "needsOptimization": true
+    },
+    {
+      "path": "/assets/template/starter-day.png",
+      "role": "day-1",
+      "alt": "中立旅行路书起步日程图",
+      "tool": "OpenAI imagegen",
+      "prompt": "Destination-neutral coastal footpath; no text, no watermark.",
+      "format": "png",
+      "needsOptimization": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-09-16T04:34:13.896Z",
+  "needsRecheck": true,
+  "records": [
+    {
+      "id": "jeju-check-1",
+      "claim": "9月7日晚检查9月9日牛岛：看风速、海浪、轮渡和小猫快艇是否运行。",
+      "status": "needs_recheck",
+      "source": "examples/jeju-complete/source-guide.md"
+    },
+    {
+      "id": "jeju-check-2",
+      "claim": "Day 3已改为固定报团日，不再自动交换 Day 2 和 Day 3；报团前重新确认海况与集合信息。",
+      "status": "needs_recheck",
+      "source": "examples/jeju-complete/source-guide.md"
+    },
+    {
+      "id": "jeju-check-3",
+      "claim": "Day 4尽量不移动，因为 밭디 周三休息。",
+      "status": "needs_recheck",
+      "source": "examples/jeju-complete/source-guide.md"
+    }
+  ]
+}

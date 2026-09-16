@@ -1,0 +1,18 @@
+{
+  "name": "YOUR ROADBOOK",
+  "short_name": "你的下一站",
+  "description": "用完整攻略生成的一份独立旅行路书。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#dbe8ee",
+  "theme_color": "#13253d",
+  "icons": [
+    {
+      "src": "/roadbook-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

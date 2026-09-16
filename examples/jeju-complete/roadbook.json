@@ -1,0 +1,802 @@
+{
+  "schemaVersion": "1.0",
+  "meta": {
+    "slug": "jeju-complete",
+    "title": "JEJU LIVING ROUTE ATLAS",
+    "destination": "济州岛",
+    "countryCode": "KR",
+    "timezone": "Asia/Seoul",
+    "locale": "zh-CN",
+    "dateRange": "2026年9月7日—9月11日",
+    "routeLabel": "杭州 → 济州",
+    "description": "完整济州五天四晚示例。出发前请重新核对交通、营业时间与预约信息。",
+    "theme": {
+      "accent": "#d5a669",
+      "ink": "#10283d",
+      "mist": "#dcebf0",
+      "heroImage": "/examples/jeju-complete/atmosphere/opening-coast.png"
+    }
+  },
+  "days": [
+    {
+      "id": "day-1",
+      "date": "2026-09-07",
+      "label": "DAY 1",
+      "title": "抵达济州",
+      "subtitle": "义乌 → 杭州 → 济州 → 酒店",
+      "theme": "抵达",
+      "scene": "flight",
+      "image": "/examples/jeju-complete/atmosphere/day-1-aerial.png",
+      "wake": {
+        "time": "11:00",
+        "preparationMinutes": 90,
+        "timezone": "中国时间"
+      },
+      "anchor": "15:00左右抵达杭州萧山机场 T4",
+      "alerts": [
+        "JD359｜杭州萧山 T4 18:30 → 济州 21:40",
+        "23:00左右入住",
+        "目标00:00–00:30睡觉"
+      ],
+      "stops": [
+        {
+          "time": "12:30",
+          "name": "从家出发",
+          "note": "前往义乌站"
+        },
+        {
+          "time": "13:00–13:30",
+          "name": "义乌站 → 杭州东站",
+          "note": "目标14:00以前抵达杭州东站"
+        },
+        {
+          "time": "15:00",
+          "name": "杭州萧山机场 T4",
+          "note": "地铁19号线前往机场"
+        },
+        {
+          "time": "18:30–21:40",
+          "name": "JD359",
+          "note": "杭州 → 济州"
+        },
+        {
+          "time": "22:30–22:50",
+          "name": "济州机场",
+          "note": "入境、取行李后叫 Uber Taxi"
+        },
+        {
+          "time": "23:00",
+          "name": "Bolton Hotel Jeju",
+          "note": "第一晚不专门跑网红餐厅"
+        }
+      ],
+      "places": [
+        {
+          "id": "p-1",
+          "name": "杭州萧山机场",
+          "localName": "杭州萧山国际机场",
+          "coordinates": [
+            120.4344,
+            30.2361
+          ],
+          "navigationQuery": "杭州萧山国际机场",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-2",
+          "name": "济州国际机场",
+          "localName": "제주국제공항",
+          "coordinates": [
+            126.493,
+            33.5104
+          ],
+          "navigationQuery": "제주국제공항",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-3",
+          "name": "Bolton Hotel Jeju",
+          "localName": "제주 볼튼 호텔",
+          "coordinates": [
+            126.4892,
+            33.4892
+          ],
+          "navigationQuery": "제주 볼튼 호텔",
+          "navigationProvider": "auto"
+        }
+      ],
+      "segments": [
+        {
+          "id": "1-1-flight",
+          "from": "p-1",
+          "to": "p-2",
+          "mode": "flight",
+          "verified": true
+        },
+        {
+          "id": "1-2-driving",
+          "from": "p-2",
+          "to": "p-3",
+          "mode": "driving",
+          "verified": true
+        }
+      ],
+      "meals": []
+    },
+    {
+      "id": "day-2",
+      "date": "2026-09-08",
+      "label": "DAY 2",
+      "title": "西线海景",
+      "subtitle": "柱状节理带 → 挟才星巴克 → 休止符 → 橡木漫画 → Lazy Pump → HaruFilm 蓝色路牌",
+      "theme": "西线",
+      "scene": "sunset",
+      "image": "/examples/jeju-complete/atmosphere/day-2-west-sunset.png",
+      "wake": {
+        "time": "08:50",
+        "preparationMinutes": 90,
+        "timezone": "韩国时间"
+      },
+      "anchor": "18:40 必须开始叫车返城",
+      "alerts": [
+        "08:50起床，预留90分钟准备",
+        "挟才：先导航协才星巴克，再步行到休止符",
+        "涯月顺序：先导航 애월온기（橡木漫画），沿海边小路到 Lazy Pump，最后去 HaruFilm 蓝色路牌",
+        "HaruFilm 蓝色路牌：애월해안로 672 1층；18:30开始收尾，18:40必须叫车返城"
+      ],
+      "stops": [
+        {
+          "time": "10:20",
+          "name": "酒店出发",
+          "note": "导航 대포해안주상절리대；市区到柱状节理带约43分钟"
+        },
+        {
+          "time": "11:20–12:20",
+          "name": "大浦海岸柱状节理带",
+          "note": "海岸、火山岩、情侣合照和视频"
+        },
+        {
+          "time": "12:20–13:20",
+          "name": "中文／大浦午饭",
+          "note": "不排长队，下午海岸行程优先"
+        },
+        {
+          "time": "14:10–14:55",
+          "name": "挟才海水浴场",
+          "note": "柱状节理带到协才驾车约35分钟；先逛白沙、蓝绿色海水与黑色火山岩，随后导航协才星巴克"
+        },
+        {
+          "time": "14:55–15:20",
+          "name": "协才星巴克",
+          "note": "导航 스타벅스 제주협재점；从挟才海水浴场步行约3–5分钟，买饮料后继续步行"
+        },
+        {
+          "time": "15:20–15:45",
+          "name": "休止符",
+          "note": "导航 쉼표；从协才星巴克沿海边小路步行约4–6分钟，视人流决定停留时长"
+        },
+        {
+          "time": "15:45–16:05",
+          "name": "休止符 → 橡木漫画转场",
+          "note": "驾车约13分钟；导航 애월온기（橡木漫画），预留等车与堵车缓冲"
+        },
+        {
+          "time": "16:05–16:25",
+          "name": "橡木漫画",
+          "note": "애월온기定位点；逛完从店旁沿海边小路向 Lazy Pump 方向走"
+        },
+        {
+          "time": "16:25–17:40",
+          "name": "橡木漫画 → Lazy Pump",
+          "note": "沿海边小路步行到 레이지펌프；到店后逛逛、看海与拍照"
+        },
+        {
+          "time": "17:40–17:55",
+          "name": "Lazy Pump → HaruFilm 转场",
+          "note": "驾车约11分钟；导航 제주특별자치도 제주시 애월읍 애월해안로 672 1층"
+        },
+        {
+          "time": "17:55–18:30",
+          "name": "HaruFilm 蓝色路牌",
+          "note": "하루필름 제주애월점，地址 애월해안로 672 1층；作为涯月最后一站，排队≤15分钟才拍，超时直接跳过"
+        },
+        {
+          "time": "18:30–18:40",
+          "name": "涯月收尾与返城叫车",
+          "note": "18:30前往上车点；18:40必须开始叫车，逛完直接回酒店，不再新增远距离停留"
+        }
+      ],
+      "places": [
+        {
+          "id": "p-1",
+          "name": "酒店",
+          "localName": "제주 볼튼 호텔",
+          "coordinates": [
+            126.4892,
+            33.4892
+          ],
+          "navigationQuery": "제주 볼튼 호텔",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-2",
+          "name": "柱状节理带",
+          "localName": "대포해안주상절리대",
+          "coordinates": [
+            126.4253,
+            33.2379
+          ],
+          "navigationQuery": "대포해안주상절리대",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-3",
+          "name": "挟才",
+          "localName": "협재해수욕장",
+          "coordinates": [
+            126.2392,
+            33.394
+          ],
+          "navigationQuery": "협재해수욕장",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-4",
+          "name": "协才星巴克",
+          "localName": "스타벅스 제주협재점",
+          "coordinates": [
+            126.24037,
+            33.394
+          ],
+          "navigationQuery": "스타벅스 제주협재점",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-5",
+          "name": "休止符",
+          "localName": "쉼표",
+          "coordinates": [
+            126.2419,
+            33.39517
+          ],
+          "navigationQuery": "쉼표",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-6",
+          "name": "橡木漫画",
+          "localName": "애월온기",
+          "coordinates": [
+            126.31101,
+            33.45931
+          ],
+          "navigationQuery": "애월온기",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-7",
+          "name": "Lazy Pump",
+          "localName": "레이지펌프 / Lazy Pump",
+          "coordinates": [
+            126.31087,
+            33.46576
+          ],
+          "navigationQuery": "레이지펌프 / Lazy Pump",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-8",
+          "name": "HaruFilm 蓝色路牌",
+          "localName": "제주특별자치도 제주시 애월읍 애월해안로 672 1층",
+          "coordinates": [
+            126.37411,
+            33.48119
+          ],
+          "navigationQuery": "제주특별자치도 제주시 애월읍 애월해안로 672 1층",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-9",
+          "name": "返城终点 · 酒店",
+          "localName": "제주 볼튼 호텔 / 返城终点",
+          "coordinates": [
+            126.4892,
+            33.4892
+          ],
+          "navigationQuery": "제주 볼튼 호텔 / 返城终点",
+          "navigationProvider": "auto"
+        }
+      ],
+      "segments": [
+        {
+          "id": "2-1-driving",
+          "from": "p-1",
+          "to": "p-2",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "2-2-driving",
+          "from": "p-2",
+          "to": "p-3",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "2-3-walking",
+          "from": "p-3",
+          "to": "p-4",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "2-4-walking",
+          "from": "p-4",
+          "to": "p-5",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "2-5-driving",
+          "from": "p-5",
+          "to": "p-6",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "2-6-walking",
+          "from": "p-6",
+          "to": "p-7",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "2-7-driving",
+          "from": "p-7",
+          "to": "p-8",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "2-8-driving",
+          "from": "p-8",
+          "to": "p-9",
+          "mode": "driving",
+          "verified": true
+        }
+      ],
+      "meals": []
+    },
+    {
+      "id": "day-3",
+      "date": "2026-09-09",
+      "label": "DAY 3",
+      "title": "东线晚起线报团",
+      "subtitle": "牛岛 → 城山日出峰 → 月汀里 → 新罗免税店",
+      "theme": "牛岛东线",
+      "scene": "ferry",
+      "image": "/examples/jeju-complete/atmosphere/day-3-udo.png",
+      "wake": {
+        "time": "06:20",
+        "preparationMinutes": 90,
+        "timezone": "韩国时间"
+      },
+      "anchor": "08:00开始接人，接人信息待客服确认",
+      "alerts": [
+        "06:20起床，预留90分钟准备",
+        "东线晚起线：08:00开始接人，约08:10市区出发",
+        "接人时间与地点待客服确认；请提前下楼，迟到可能放弃行程"
+      ],
+      "stops": [
+        {
+          "time": "08:00–08:10",
+          "name": "市区集合／接人",
+          "note": "东线晚起线；具体接人时间与地点待客服确认，请提前下楼"
+        },
+        {
+          "time": "约10:00",
+          "name": "城山港 → 牛岛轮渡",
+          "note": "随团登岛，轮渡时间包含在行程内；当天以导游与码头公告为准"
+        },
+        {
+          "time": "约10:00–14:00",
+          "name": "牛岛团游（约4小时）",
+          "note": "行程含往返轮渡；小猫快艇保留为自由时间备选，是否前往以集合时间为准"
+        },
+        {
+          "time": "约14:00–14:10",
+          "name": "牛岛 → 城山集合",
+          "note": "按导游指定时间回到集合点，不单独延长岛上停留"
+        },
+        {
+          "time": "约14:10–15:10",
+          "name": "城山日出峰",
+          "note": "报团停留约1小时，按团上集合时间返回车辆"
+        },
+        {
+          "time": "约15:50–17:00",
+          "name": "月汀里 · MOU MOON 备选",
+          "note": "月汀里海岸停留；MOU MOON是否前往以导游集合时间为准"
+        },
+        {
+          "time": "约18:00",
+          "name": "新罗免税店结束",
+          "note": "报团行程在市区结束，之后自行晚餐或回酒店"
+        }
+      ],
+      "places": [
+        {
+          "id": "p-1",
+          "name": "酒店",
+          "localName": "제주 볼튼 호텔",
+          "coordinates": [
+            126.4892,
+            33.4892
+          ],
+          "navigationQuery": "제주 볼튼 호텔",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-2",
+          "name": "城山港",
+          "localName": "성산포항 종합여객터미널",
+          "coordinates": [
+            126.9335,
+            33.4732
+          ],
+          "navigationQuery": "성산포항 종합여객터미널",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-3",
+          "name": "牛岛",
+          "localName": "우도",
+          "coordinates": [
+            126.952,
+            33.505
+          ],
+          "navigationQuery": "우도",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-4",
+          "name": "城山日出峰",
+          "localName": "성산일출봉",
+          "coordinates": [
+            126.9424,
+            33.4588
+          ],
+          "navigationQuery": "성산일출봉",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-5",
+          "name": "MOU MOON",
+          "localName": "머문 / MOU MOON",
+          "coordinates": [
+            126.7958,
+            33.5564
+          ],
+          "navigationQuery": "머문 / MOU MOON",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-6",
+          "name": "新罗免税店",
+          "localName": "신라면세점 제주점",
+          "coordinates": [
+            126.4875,
+            33.486
+          ],
+          "navigationQuery": "신라면세점 제주점",
+          "navigationProvider": "auto"
+        }
+      ],
+      "segments": [
+        {
+          "id": "3-1-driving",
+          "from": "p-1",
+          "to": "p-2",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "3-2-ferry",
+          "from": "p-2",
+          "to": "p-3",
+          "mode": "ferry",
+          "verified": true
+        },
+        {
+          "id": "3-3-driving",
+          "from": "p-2",
+          "to": "p-3",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "3-4-ferry",
+          "from": "p-3",
+          "to": "p-4",
+          "mode": "ferry",
+          "verified": true
+        },
+        {
+          "id": "3-5-driving",
+          "from": "p-3",
+          "to": "p-4",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "3-6-driving",
+          "from": "p-4",
+          "to": "p-5",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "3-7-driving",
+          "from": "p-5",
+          "to": "p-6",
+          "mode": "driving",
+          "verified": true
+        }
+      ],
+      "meals": []
+    },
+    {
+      "id": "day-4",
+      "date": "2026-09-10",
+      "label": "DAY 4",
+      "title": "森林牧场",
+      "subtitle": "ECOLAND → 목장카페 밭디（小马牧场）",
+      "theme": "森林牧场",
+      "scene": "rail",
+      "image": "/examples/jeju-complete/atmosphere/day-4-forest.png",
+      "wake": {
+        "time": "08:40",
+        "preparationMinutes": 90,
+        "timezone": "韩国时间"
+      },
+      "anchor": "18:40 必须开始叫车返城",
+      "alerts": [
+        "08:40起床，预留90分钟准备",
+        "ECOLAND只挑2–3站认真玩",
+        "18:30开始收尾，18:40必须叫车返城"
+      ],
+      "stops": [
+        {
+          "time": "10:50–13:20",
+          "name": "ECOLAND",
+          "note": "市区出发预留约40分钟；Eco Bridge、Lakeside最重要，花园类看花况"
+        },
+        {
+          "time": "13:20–14:30",
+          "name": "午饭／转场",
+          "note": "不为餐厅绕路"
+        },
+        {
+          "time": "15:00–17:30",
+          "name": "목장카페 밭디（小马牧场）",
+          "note": "不骑马；喂马、草地、白栅栏、咖啡和情侣照。18:30开始收尾，18:40必须叫车"
+        },
+        {
+          "time": "18:30–18:40",
+          "name": "前往上车点并叫车",
+          "note": "18:40为返城叫车硬截止；提前结束直接返城，晚餐回莲洞再决定"
+        }
+      ],
+      "places": [
+        {
+          "id": "p-1",
+          "name": "酒店",
+          "localName": "제주 볼튼 호텔",
+          "coordinates": [
+            126.4892,
+            33.4892
+          ],
+          "navigationQuery": "제주 볼튼 호텔",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-2",
+          "name": "ECOLAND",
+          "localName": "에코랜드 테마파크",
+          "coordinates": [
+            126.6703,
+            33.4488
+          ],
+          "navigationQuery": "에코랜드 테마파크",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-3",
+          "name": "목장카페 밭디（小马牧场）",
+          "localName": "목장카페 밭디",
+          "coordinates": [
+            126.785,
+            33.389
+          ],
+          "navigationQuery": "목장카페 밭디",
+          "navigationProvider": "auto"
+        }
+      ],
+      "segments": [
+        {
+          "id": "4-1-driving",
+          "from": "p-1",
+          "to": "p-2",
+          "mode": "driving",
+          "verified": true
+        },
+        {
+          "id": "4-2-driving",
+          "from": "p-2",
+          "to": "p-3",
+          "mode": "driving",
+          "verified": true
+        }
+      ],
+      "meals": []
+    },
+    {
+      "id": "day-5",
+      "date": "2026-09-11",
+      "label": "DAY 5",
+      "title": "购物返程",
+      "subtitle": "新罗 → 乐天 → 莲洞＋Olive Young → 机场",
+      "theme": "返程",
+      "scene": "city",
+      "image": "/examples/jeju-complete/atmosphere/day-5-city.png",
+      "wake": {
+        "time": "09:20",
+        "preparationMinutes": 90,
+        "timezone": "韩国时间"
+      },
+      "anchor": "19:00–19:15前往机场",
+      "alerts": [
+        "JD360｜济州 22:40 → 杭州 23:30",
+        "10:50–11:00退房并寄存行李",
+        "19:30左右到机场"
+      ],
+      "stops": [
+        {
+          "time": "09:20–10:50",
+          "name": "起床＋退房",
+          "note": "09:20起床；10:50前完成退房，行李寄存Bolton前台"
+        },
+        {
+          "time": "11:00–13:00",
+          "name": "新罗免税店",
+          "note": "先拍价格、折扣、赠品和库存"
+        },
+        {
+          "time": "14:00–15:30",
+          "name": "乐天免税店",
+          "note": "和新罗比价、补货"
+        },
+        {
+          "time": "15:30–18:15",
+          "name": "Nuwemaru＋莲洞＋Olive Young",
+          "note": "生活美妆最后统一采购"
+        },
+        {
+          "time": "18:15–18:45",
+          "name": "回酒店拿箱子",
+          "note": "液体、托运和随身行李全部整理好"
+        },
+        {
+          "time": "19:00–19:15",
+          "name": "酒店 → 济州机场",
+          "note": "Uber；为值机、托运、出境和免税提货预留时间"
+        }
+      ],
+      "places": [
+        {
+          "id": "p-1",
+          "name": "Bolton Hotel",
+          "localName": "제주 볼튼 호텔",
+          "coordinates": [
+            126.4892,
+            33.4892
+          ],
+          "navigationQuery": "제주 볼튼 호텔",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-2",
+          "name": "新罗免税店",
+          "localName": "신라면세점 제주점",
+          "coordinates": [
+            126.4875,
+            33.486
+          ],
+          "navigationQuery": "신라면세점 제주점",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-3",
+          "name": "乐天免税店",
+          "localName": "롯데면세점 제주점",
+          "coordinates": [
+            126.4815,
+            33.4851
+          ],
+          "navigationQuery": "롯데면세점 제주점",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-4",
+          "name": "莲洞商业街",
+          "localName": "누웨마루거리",
+          "coordinates": [
+            126.4905,
+            33.4878
+          ],
+          "navigationQuery": "누웨마루거리",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "p-5",
+          "name": "济州机场",
+          "localName": "제주국제공항",
+          "coordinates": [
+            126.493,
+            33.5104
+          ],
+          "navigationQuery": "제주국제공항",
+          "navigationProvider": "auto"
+        }
+      ],
+      "segments": [
+        {
+          "id": "5-1-walking",
+          "from": "p-1",
+          "to": "p-2",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "5-2-walking",
+          "from": "p-2",
+          "to": "p-3",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "5-3-walking",
+          "from": "p-3",
+          "to": "p-4",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "5-4-walking",
+          "from": "p-4",
+          "to": "p-1",
+          "mode": "walking",
+          "verified": true
+        },
+        {
+          "id": "5-5-driving",
+          "from": "p-1",
+          "to": "p-5",
+          "mode": "driving",
+          "verified": true
+        }
+      ],
+      "meals": []
+    }
+  ],
+  "guide": {
+    "checks": [
+      "9月7日晚检查9月9日牛岛：看风速、海浪、轮渡和小猫快艇是否运行。",
+      "Day 3已改为固定报团日，不再自动交换 Day 2 和 Day 3；报团前重新确认海况与集合信息。",
+      "Day 4尽量不移动，因为 밭디 周三休息。"
+    ],
+    "notes": [
+      "此示例保留原始旅行安排，包含需要出发前复核的信息。"
+    ]
+  }
+}

@@ -14,7 +14,7 @@
       "accent": "#d5a669",
       "ink": "#10283d",
       "mist": "#dcebf0",
-      "heroImage": "/examples/jeju-complete/atmosphere/opening-coast.png"
+      "heroImage": "/examples/jeju-complete/atmosphere/opening-coast.webp"
     }
   },
   "days": [
@@ -26,7 +26,7 @@
       "subtitle": "义乌 → 杭州 → 济州 → 酒店",
       "theme": "抵达",
       "scene": "flight",
-      "image": "/examples/jeju-complete/atmosphere/day-1-aerial.png",
+      "image": "/examples/jeju-complete/atmosphere/day-1-aerial.webp",
       "wake": {
         "time": "11:00",
         "preparationMinutes": 90,
@@ -131,7 +131,7 @@
       "subtitle": "柱状节理带 → 挟才星巴克 → 休止符 → 橡木漫画 → Lazy Pump → HaruFilm 蓝色路牌",
       "theme": "西线",
       "scene": "sunset",
-      "image": "/examples/jeju-complete/atmosphere/day-2-west-sunset.png",
+      "image": "/examples/jeju-complete/atmosphere/day-2-west-sunset.webp",
       "wake": {
         "time": "08:50",
         "preparationMinutes": 90,
@@ -375,7 +375,7 @@
       "subtitle": "牛岛 → 城山日出峰 → 月汀里 → 新罗免税店",
       "theme": "牛岛东线",
       "scene": "ferry",
-      "image": "/examples/jeju-complete/atmosphere/day-3-udo.png",
+      "image": "/examples/jeju-complete/atmosphere/day-3-udo.webp",
       "wake": {
         "time": "06:20",
         "preparationMinutes": 90,
@@ -553,7 +553,7 @@
       "subtitle": "ECOLAND → 목장카페 밭디（小马牧场）",
       "theme": "森林牧场",
       "scene": "rail",
-      "image": "/examples/jeju-complete/atmosphere/day-4-forest.png",
+      "image": "/examples/jeju-complete/atmosphere/day-4-forest.webp",
       "wake": {
         "time": "08:40",
         "preparationMinutes": 90,
@@ -648,7 +648,7 @@
       "subtitle": "新罗 → 乐天 → 莲洞＋Olive Young → 机场",
       "theme": "返程",
       "scene": "city",
-      "image": "/examples/jeju-complete/atmosphere/day-5-city.png",
+      "image": "/examples/jeju-complete/atmosphere/day-5-city.webp",
       "wake": {
         "time": "09:20",
         "preparationMinutes": 90,

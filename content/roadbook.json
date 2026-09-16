@@ -15,7 +15,7 @@
       "accent": "#d7b078",
       "ink": "#13253d",
       "mist": "#dbe8ee",
-      "heroImage": "/assets/template/starter-hero.png"
+      "heroImage": "/assets/template/starter-hero.webp"
     }
   },
   "days": [
@@ -27,26 +27,78 @@
       "subtitle": "把第一天留给抵达、安顿和熟悉目的地。",
       "theme": "arrival",
       "scene": "flight",
-      "image": "/assets/template/starter-day.png",
-      "wake": { "time": "09:00", "preparationMinutes": 90, "timezone": "UTC" },
+      "image": "/assets/template/starter-day.webp",
+      "wake": {
+        "time": "09:00",
+        "preparationMinutes": 90,
+        "timezone": "UTC"
+      },
       "anchor": "先确认交通与入住，再开始探索。",
-      "alerts": ["这是可构建的中立示例；请在事实确认后替换。"],
+      "alerts": [
+        "这是可构建的中立示例；请在事实确认后替换。"
+      ],
       "stops": [
-        { "time": "10:30", "name": "抵达地点", "note": "填写真实地址、交通方式和缓冲时间。", "placeId": "arrival" },
-        { "time": "15:00", "name": "第一段探索", "note": "填写当天最重要的一站。", "placeId": "first-stop" }
+        {
+          "time": "10:30",
+          "name": "抵达地点",
+          "note": "填写真实地址、交通方式和缓冲时间。",
+          "placeId": "arrival"
+        },
+        {
+          "time": "15:00",
+          "name": "第一段探索",
+          "note": "填写当天最重要的一站。",
+          "placeId": "first-stop"
+        }
       ],
       "places": [
-        { "id": "arrival", "name": "抵达地点", "localName": "Arrival", "coordinates": [0, 0], "navigationQuery": "Arrival", "navigationProvider": "auto" },
-        { "id": "first-stop", "name": "第一段探索", "localName": "First stop", "coordinates": [0.02, 0.01], "navigationQuery": "First stop", "navigationProvider": "auto" }
+        {
+          "id": "arrival",
+          "name": "抵达地点",
+          "localName": "Arrival",
+          "coordinates": [
+            0,
+            0
+          ],
+          "navigationQuery": "Arrival",
+          "navigationProvider": "auto"
+        },
+        {
+          "id": "first-stop",
+          "name": "第一段探索",
+          "localName": "First stop",
+          "coordinates": [
+            0.02,
+            0.01
+          ],
+          "navigationQuery": "First stop",
+          "navigationProvider": "auto"
+        }
       ],
       "segments": [
-        { "id": "day-1-arrival-walk", "from": "arrival", "to": "first-stop", "mode": "walking", "verified": false }
+        {
+          "id": "day-1-arrival-walk",
+          "from": "arrival",
+          "to": "first-stop",
+          "mode": "walking",
+          "verified": false
+        }
       ],
-      "meals": [{ "label": "灵活用餐", "strategy": "按抵达时间和精力决定，不为用餐增加额外绕路。", "options": [] }]
+      "meals": [
+        {
+          "label": "灵活用餐",
+          "strategy": "按抵达时间和精力决定，不为用餐增加额外绕路。",
+          "options": []
+        }
+      ]
     }
   ],
   "guide": {
-    "checks": ["确认天气、开放时间、交通和预约信息。"],
-    "notes": ["没有实时数据源时，页面必须保留 needs_recheck 状态。"]
+    "checks": [
+      "确认天气、开放时间、交通和预约信息。"
+    ],
+    "notes": [
+      "没有实时数据源时，页面必须保留 needs_recheck 状态。"
+    ]
   }
 }

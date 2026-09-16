@@ -12,6 +12,7 @@
     "build": "node scripts/prepare-manifest.mjs && vite build && node scripts/prepare-pwa.mjs && node scripts/prepare-sites-build.mjs",
     "preview": "vite preview",
     "test:sites": "node --test tests/sites-worker.test.mjs",
+    "media:optimize": "node scripts/optimize-media.mjs",
     "roadbook:use": "node scripts/use-roadbook.mjs"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
     "playwright-core": "^1.62.1",
+    "sharp": "^0.35.4",
     "typescript": "^7.0.2"
   }
 }

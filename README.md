@@ -22,6 +22,7 @@ tool (Codex must use imagegen), validate, build, and open the local preview.
 
 ```bash
 npm install
+npm run media:optimize
 npm run validate
 npm run check
 npm run build
